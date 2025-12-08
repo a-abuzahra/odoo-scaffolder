@@ -4,7 +4,7 @@ Odoo Module Scaffolder
 A modern scaffolding tool for creating Odoo modules with best practices.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Ammar Abu Zahra"
 __email__ = "ammarya12@gmail.com"
 
