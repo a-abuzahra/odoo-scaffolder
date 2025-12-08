@@ -1,6 +1,16 @@
 # Odoo Scaffolder
 
+[![PyPI version](https://badge.fury.io/py/odoo-scaffolder.svg)](https://badge.fury.io/py/odoo-scaffolder)
+[![Python versions](https://img.shields.io/pypi/pyversions/odoo-scaffolder.svg)](https://pypi.org/project/odoo-scaffolder/)
+[![Development Status](https://img.shields.io/badge/status-beta-orange.svg)](https://github.com/a-abuzahra/odoo-scaffolder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/pepy/dt/odoo-scaffolder)](https://pepy.tech/project/odoo-scaffolder)
+[![GitHub stars](https://img.shields.io/github/stars/a-abuzahra/odoo-scaffolder.svg)](https://github.com/a-abuzahra/odoo-scaffolder/stargazers)
+
+
 A modern, interactive scaffolding tool for creating Odoo modules with best practices. Inspired by Next.js's beautiful CLI interface.
+
+**Current Status:** Beta - Fully functional with ongoing improvements. Feedback and [issue reports](https://github.com/a-abuzahra/odoo-scaffolder/issues) welcome!
 
 ## Features
 
@@ -129,4 +139,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Odoo PS Team
+Ammar Abu Zahra
