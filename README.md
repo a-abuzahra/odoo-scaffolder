@@ -22,7 +22,7 @@ pip install odoo-scaffolder
 ### From Source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/odoo-scaffolder.git
+git clone https://github.com/a-abuzahra/odoo-scaffolder.git
 cd odoo-scaffolder
 pip install -e .
 ```
