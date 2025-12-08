@@ -93,21 +93,7 @@ python -c "from odoo_scaffolder.__main__ import get_icon_path; print(get_icon_pa
 ## GitHub Repository Setup
 
 1. Create a new repository on GitHub
-2. Initialize git and add remote:
-```bash
-cd /home/ammar/odoo/script/odoo-scaffolder
-git init
-git add .
-git commit -m "Initial commit: Odoo Scaffolder v0.1.0"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/odoo-scaffolder.git
-git push -u origin main
-```
-
-3. Update URLs in [pyproject.toml](pyproject.toml):
-   - Line 34: `Homepage = "https://github.com/YOUR_USERNAME/odoo-scaffolder"`
-   - Line 35: `Repository = "https://github.com/YOUR_USERNAME/odoo-scaffolder"`
-   - Line 36: `Issues = "https://github.com/YOUR_USERNAME/odoo-scaffolder/issues"`
+2. Repository already created at: https://github.com/a-abuzahra/odoo-scaffolder
 
 ## Notes
 
