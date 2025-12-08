@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odoo-scaffolder"
+version = "0.1.0"
+description = "A modern scaffolding tool for creating Odoo modules with best practices"
+readme = "README.md"
+authors = [
+    { name = "Odoo PS", email = "noreply@odoo.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["odoo", "scaffold", "module", "generator", "cli"]
+
+[project.urls]
+Homepage = "https://github.com/a-abuzahra/odoo-scaffolder"
+Repository = "https://github.com/a-abuzahra/odoo-scaffolder"
+Issues = "https://github.com/a-abuzahra/odoo-scaffolder/issues"
+
+[project.scripts]
+odoo-scaffolder = "odoo_scaffolder:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["odoo_scaffolder*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+odoo_scaffolder = ["icons/*.png"]

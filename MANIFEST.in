@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+recursive-include odoo_scaffolder/icons *.png *.md
